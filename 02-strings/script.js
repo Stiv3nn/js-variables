@@ -1,11 +1,24 @@
 // 1. Dichiarazione di variabili
 // Crea una variabile chiamata name e assegnale il tuo nome.
 // Stampa il valore di nome nella console.
+let myname = "Stiven"
+console.log(myname);
 
 // 2. Tipi primitivi
 // Crea tre variabili chiamate number, text e bool e assegna rispettivamente
 // un numero, una stringa e un valore booleano.
 // Stampa tutti i valori nella console.
+const number = '7';
+console.log(number);
+
+let text = 'lorem ipsum lorem ipsum lorem ipsum'
+console.log(text);
+
+let sole = 'true';
+console.log("Fuori c'è il sole?:", sole);
+
+let piove = 'false';
+console.log("Fuori piove?:", piove);
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
@@ -19,5 +32,5 @@ console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
-const numberOfLettersInAlphabet = null;
+const numberOfLettersInAlphabet = alphabet.length;
 console.log(numberOfLettersInAlphabet); // Output: 26
